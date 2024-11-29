@@ -1,0 +1,133 @@
+@media only screen and (max-width:768px) {
+    .one {
+        justify-content: space-between;
+        padding: 0 25px;
+        position: relative;
+
+    }
+
+    .one ul {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        /* border: 2px solid red; */
+    }
+
+
+    .left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 3px solid rgb(64, 119, 139); */
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        min-height: 200px;
+        /* border: 2px solid green; */
+    }
+    .right img{
+        /* margin-bottom: -150px; */
+     /* padding-bottom: -90px; */
+    }
+
+    .two {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .left1 {
+        width: 80%;
+    }
+     .left h1{
+        width: 110%;
+        /* margin-top: -90px;    */
+     }
+
+    .mini2 {
+        /* padding-top: -50px; */
+        margin-top: -40px;
+    }
+      .card-item1{
+        border: 3px solid darkgoldenrod;
+        margin-right: 0px;
+      }
+    .mini1 {
+        margin-top: -40px;
+    }
+
+    .mini1 button {
+        background-color: aquamarine;
+        padding: 12px 12px;
+    }
+
+    .right1 {
+        width: 100%;
+        min-height: 90vh;
+        align-items: start;
+        padding-left: 40px;
+        /* border: 2px solid darkgray; */
+    }
+
+    .cards1 {
+        align-items: start;
+        gap: 10px;
+    }
+
+    .cards2 {
+        align-items: start;
+        gap: 10px;
+    }
+
+    .cards3 {
+        align-items: start;
+        /* border: 3px solid red; */
+        gap: 10px;
+    }
+
+
+    .tree {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .tree p {
+        text-align: center;
+
+    }
+
+    .card-item {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .four {
+        flex-direction: column-reverse;
+        width: 100%;
+
+    }
+
+    .left2 {
+        /* border: 2px solid red; */
+        width: 100%;
+        min-height: 250px;
+    }
+
+    .right2 {
+        width: 100%;
+        min-height: 200px !important;
+        /* border:  2px solid red; */
+    }
+     .bada p{
+       width: 90%;
+       font-size: 19px;
+    }
+}
